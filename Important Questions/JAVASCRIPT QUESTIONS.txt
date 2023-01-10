@@ -1,0 +1,42 @@
+Q Give an example where call apply bind is required?
+    call() - you can tie a function into an object as if it belonged to the object
+        function_name.call(object_name, argument 1, argument 2)       ==> function can use this.key_name to access the object.
+
+    apply() - same as call, but argument taken as array
+        function_name.apply(object_name, [argument 1, argument 2] )
+
+    bind() - instead of executing the function, bind returns the function, which can be called to get the value;
+        const return_function = function_name.apply(object_name, [argument 1, argument 2] )
+        return_function()
+
+
+Q What is the difference between readFile and readFileSync?
+    In fs. readFile() method, we can read a file in a non-blocking asynchronous way, but in fs. readFileSync() method, we can read files in a synchronous way, 
+
+
+Q What does process in node.js mean?
+    The process object in Node. js is a global object that can be accessed inside any module without requiring it. 
+
+
+Q Explain what node.js is?
+    Cross-platform runtime environment for executing JavaScript code
+
+
+Q What is the difference of JS from browser to JS on node.js
+    Browser js control limited to just browser only, with objects like window, location and document.
+    Node.js has has full system access (read write files), and has global and require objects
+
+
+Q Write a program to check two objects are equal ( deep equal )
+        if (obj1Length === obj2Length) {
+                    return Object.keys(obj1).every(
+                        key => obj2.hasOwnProperty(key)
+                            && obj2[key] === obj1[key]);
+                }
+                return false;
+                
+
+Q 
+Q 
+Q 
+Q 

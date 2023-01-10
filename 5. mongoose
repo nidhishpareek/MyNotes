@@ -1,0 +1,36 @@
+install => npm i mongoose
+
+in DB file
+            import mongoose from "mongoose";
+    making connection =>
+            export async function connectDatabase() {
+                return new Promise((resolve, reject) => {
+                    // protocol://hostname:port/db_name
+                    // protocol://username@password:hostname:port/db_name
+                    mongoose.connect('mongodb://127.0.0.1:27017/employees-exercise', (err) => {
+                        if (err) {
+                            console.log('Error conencting to DB')
+                            reject(err)
+                        } else {
+                            console.log('Successfully connected to DB')
+                            resolve()
+                        }
+                    })
+                })
+            }
+
+
+in model file => we create a schema so that we can defiine set of rules while using db, then we create a modal based on schema
+        import mongoose from "mongoose"
+        const employeeSchema = new mongoose.Schema({
+            name: String,
+            gender: {type: String,required: true,enum: ['Male', 'Female', 'Other']},
+            company: String,
+            department: String,
+            salary: Number,
+        })
+
+        // Step 3. Create a model using the schema related to the collection
+        const employeeModel = mongoose.model('employees', employeeSchema) // employees
+
+        export default employeeModel;

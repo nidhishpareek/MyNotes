@@ -1,0 +1,113 @@
+HEXA HEALTH
+Gurgaon | 8.00 – 9.00 LPA | MERN
+health tech plateform with largest hospital network, with ai powered recommendation engine
+best surgeon and free consultation.
+A one-stop solution for the patients, who need to undergo a surgery
+Vision: 
+    To be the largest patient care and service platform for surgery in India.
+Mission: 
+    To empower patients with the right education  to enable discovery of the right doctor/hospital and to deliver better health outcomes with care.
+
+
+
+
+
+
+
+iife - 
+    immediately invoked function expressiion, helpful in using async await in use effect
+
+
+temporal dead zone, 
+    "A temporal dead zone (TDZ) is the area of a block where a variable is inaccessible until the moment the computer completely initializes it with a value."
+
+
+hoisting, 
+    'Hoisting refers to JavaScript giving higher precedence to the declaration of variables, classes, and functions during a program’s execution.'
+
+
+event bubbling - 
+    'Event Bubbling is a concept in the DOM (Document Object Model). It happens when an element receives an event, and that event bubbles up (or you can say is transmitted or propagated) to its parent and ancestor elements in the DOM tree until it gets to the root element.'
+
+
+first class function - 
+    'when functions in that language are treated like any other variable or arguments.'
+
+
+useStrict / strict mode - 
+    'react way to handle bad code.
+
+
+prototypes
+    'Prototypes are the mechanism by which JavaScript objects inherit features from one another. 
+
+
+ === vs == first compares datatypes too, whereas == compares only values.
+
+
+
+Solve - 
+    1. console.log(!!-5===true);
+    2. console.log(l &&  false==0);
+    3. console.log(1>0 || 1==0)
+
+Solve- 
+    var counter
+    if (counter == 1) 
+    console.log(counter);
+    {let counter = 2;
+    console.log(counter);}
+    console.log(counter);
+
+
+typeof null == object - 
+    'first null was described as type 0 in js, and objects too. a fix failed to give typeof null = null
+
+create object without object litral - 
+    'constructor function , keywords this and new
+
+prototype chaining - 
+    'the prototype of an object would also have a prototype object. This continues until we reach the top level when there is no prototype object.
+
+what are prototypes -
+     'its a mechanism by which js object inherit properties of its parent. JS has prototypes instead of class instances
+
+splice and slice-
+    'slice returns a piece of the array but it doesnt affect the original array. splice changes the original array by removing, replacing, or adding values and returns the affected values.
+
+call bind and apply
+diffrence bw null and undefined
+question on sql and no sql, diffrence.
+    'SQL	                                                    NoSQL
+    RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)	            Non-relational or distributed database system.
+    fixed or static or predefined schema	                    They have dynamic schema
+    not suited for hierarchical data storage.	                best suited for hierarchical data storage.
+    best suited for complex queries	                            not so good for complex queries
+    Vertically Scalable	                                        Horizontally scalable
+    Follows ACID property	                             Follows CAP(consistency, availability, partition tolerance)
+    mysql,  mysql                                               mongodb graphql
+
+
+can we store function in mongo as key value pair
+
+DSA
+array and 2 pointers.
+explain how output is coming / make a function
+
+round 1;
+promises, 
+clousure , react hook, memo,
+redux structure, 
+context api
+what is usestate hook
+hire order function
+async await
+.then .catch
+propdrilling
+solve problem of propdrilling,
+
+
+what is flex
+what is grid
+what is position
+margin padding table 

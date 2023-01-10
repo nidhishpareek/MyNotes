@@ -1,0 +1,49 @@
+Q how to add comments on css?
+    plain text inside /* */ marks.
+
+Q Why do we use pseudo-class?
+    To define a special state of an element like hover, focus etc...
+
+Q How is specificity applied?
+    If there are multiple selectors, then the style of more specificity is applied.
+    inline = 1000
+    id = 100
+    class/ attribute / psudo = 10 
+    tag = 1
+    universal , negation psudo selectors, combinatiors = 0;
+
+Q What method allows an element to be moved from its current position?
+    transpose: translate(x,y)
+
+Q what properties does flex model have?
+    direction, wrap, align, justify-content, flow
+
+Q What are combinators? give examples of how you can use them?
+    Combinators lets you combine two or more selectors so you can be more specific in your selection method. 
+    multiple selectors (,)
+    type and class (.)
+    Adjacent Sibling Selector (+)
+    General Sibling Selector (~)    
+    Child Combinator (>)
+    Descendant Combinator ( )
+
+Q Wha
+t does object-fit do?
+    Specify how img or video should be resized to fit container.
+    object-fit: fill , resized to fill the given dimension, image will be stretched or squished
+                contain - The image keeps its aspect ratio, but is resized to fit within the given dimension
+                cover - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit
+                none - The image is not resized
+
+Q What does rotate do?
+    transform: rotate(0 deg); we can give as rad, deg, turn too
+    
+Q What does @media do?
+    The @media rule is used in media queries to apply different styles for different media types/devices.
+
+Q What can be used to override properties of an element?
+    !important.
+
+Q How can you select every alternate elements in a list of elements using css?
+    li:nth-of-type(even) {}
+    

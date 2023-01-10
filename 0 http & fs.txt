@@ -1,0 +1,37 @@
+import http from 'http';
+import fs from 'fs';
+
+
+function handler(req, res) {
+    if (req.url.includes('/url_part') && req.method === 'GET') {
+        taskfunction()
+    }
+    else if(...arguments){
+        takss()
+    }
+    else{
+        res.write('nothing match'); res.end('')
+    }
+}
+
+
+const server = http.createServer(handler);
+server.listen(3001)
+
+
+let data = fs.readFileSync('file name', {encoding:'UTF-8'});
+
+fs.writeFileSync('file name',data, {encoding:'UTF-8'});
+
+fs.appendFileSync('file name',data, {encoding:'UTF-8'});
+
+fs.unlinkSync('file name');                 => delete file
+
+fs.openSync( 'file name', 'wx+');         => wx+ is read write type
+
+fs.renameSync('file name', 'new file name');
+
+fs.readdirSync(`../${directoryName}`)
+
+check all the async fs commands online
+

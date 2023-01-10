@@ -1,0 +1,23 @@
+Q What are some new things happening in the web?
+    Serverless architecture.
+    No- and low-code development.
+    API-first design.
+    Progressive Web Apps (PWA)
+    Chatbots powered with AI and ML.
+    Advanced animation using Motion UI.
+    Responsive websites.
+    UI Library like material and chakra
+
+Q Why do coding standards matter? What are some patterns you follow?
+    A coding standard gives a uniform appearance to the codes written by different engineers. It improves readability, and maintainability of the code and it reduces complexity also. It helps in code reuse and helps to detect error easily. It promotes sound programming practices and increases efficiency of the programmers.
+
+Q What are you most excited about?
+    The future technology, what will the future hold, will we be able to develop website with just only a thought, or all devices will be like chromebook where everything is on cloud, and you dont need high end computer, and all things will be available through the cloud.
+
+Q How do you go about managing responsive websites?
+    Media queries, 
+    Chakra UI features, of array of properties at different sizes.
+
+Q What do you care about the most when you write software?
+    Write clever code, but the main focus should be on readability and maintainability.
+

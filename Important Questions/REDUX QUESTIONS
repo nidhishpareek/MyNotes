@@ -1,0 +1,35 @@
+Q Explain redux to a 5 year old (ELI5) ?
+    Suppose one morning you want to buy a chocolate, your intentions are clear, so you will do action, by going to rmarket, where you will go to a shop and ask for a chocolate by giving him some money, although there is a box and you can easily take a chocolate yourself, but you are following a process as things dont work that way, right. Here chocolate shop is a store, and shopkeeper the person who organize teh store. Almost same thing happens in redux.
+
+Q What is immutability?
+    Immutability means that we cannot change a variable after it is created, we can only reassign that variable. 
+
+Q What does Object.freeze() do?
+    The Object.freeze() method freezes an object. Freezing an object prevents extensions and makes existing properties non-writable and non-configurable.
+
+Q Why is immutability required by Redux?
+    Immutability means alot in react, redux and multithreading as well. For react, it compares the older and newer value to render the dom changes. But for redux, it requires immutability to detect changes easily, and to create them without much delay so that the upcoming actions will not have any varience. Also by this, react and use shallow comparision.
+
+Q How does Redux use shallow equality checking?
+    Redux will check newstate === oldstate, if it is false then it will trigger rerender.
+
+Q How well does Redux “scale” in terms of performance and architecture?
+     While Redux minimises unnecessory rerendering and havily optimized, specially version 5 onwards.
+     But still it it too complex , restricted, and excessive memory use might be issues.
+     Architecture is great for bigger projects and works well, but it will be a poor choice when you are making a smaller simpla app.
+
+Q How does Redux compare to the React Context API?
+    Redux is a complete state management tool which is pure javascript and can be used for undo and redo process.
+    Context is a react feature to facilitate globally passing of state instead of passing manually.
+
+Q What is webpack?
+    It is a bundler for javascript, although it can transform CSS- HTML too, Takes the javascript code and converts such that it can be used by browser.
+
+Q Some features of webpack
+    Plots a graph to effectively, we get a optimized output. fout components are, entry , output, Loaders and plugins.
+
+Q What is tree shacking?
+    Tree shacking is a process of removal of dead code.
+    Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code.
+
+

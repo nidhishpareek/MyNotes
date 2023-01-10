@@ -1,0 +1,3 @@
+Q What are REST APIs?
+    Representational state transfer, REST defines a set of function, get put, patch delete so that clients can access server data. 
+    Its a sateless API means, it doesnt save data between client requests. The request is similar to URLs in browser. Response is plain data. The
